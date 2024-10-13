@@ -7,3 +7,7 @@ import streamlit as st # Missing from code in streamlit's code
 # This gives you an extremely simple interaction model.
 iterations = st.sidebar.slider("Level of detail", 2, 20, 10, 1)
 separation = st.sidebar.slider("Separation", 0.7, 2.0, 0.7885)
+
+# Non-interactive elements return a placeholder to their location
+# in the app. Here we're storing progress_bar to update it later.
+progress_bar = st.sidebar.progress(0)
