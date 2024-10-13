@@ -1,6 +1,6 @@
-""" Clone of animation demo from streamlit project
-"""
-
+""" Clone of animation demo from streamlit project"""
+from typing import Any
+import numpy as np
 import streamlit as st # Missing from code in streamlit's code
 
 # Interactive Streamlit elements, like these sliders, return their value.
