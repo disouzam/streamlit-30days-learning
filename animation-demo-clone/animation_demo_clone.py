@@ -44,3 +44,8 @@ for frame_num, a in enumerate(np.linspace(0.0, 4 * np.pi, 100)):
 # We clear elements by calling empty on them.
 progress_bar.empty()
 frame_text.empty()
+
+# Streamlit widgets automatically run the script from top to bottom. Since
+# this button is not connected to any other logic, it just causes a plain
+# rerun.
+st.button("Re-run")
