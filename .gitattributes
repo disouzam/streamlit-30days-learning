@@ -1,1 +1,5 @@
-* text=auto
+* text=lf
+
+*.py eol=lf
+.gitattributes eol=lf
+*.toml eol=lf
