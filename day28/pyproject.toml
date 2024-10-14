@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "day28"
+version = "0.1.0"
+description = ""
+authors = ["Dickson Souza <36424026+disouzam@users.noreply.github.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.39.0"
+llvmlite = "^0.43.0"
+numba = "^0.60.0"
+streamlit-shap = "^1.0.2"
+xgboost = "^2.1.1"
+shap = "^0.46.0"
+matplotlib = "^3.9.2"
