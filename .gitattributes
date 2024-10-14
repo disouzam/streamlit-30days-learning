@@ -1,5 +1,5 @@
-* text=lf
-
-*.py eol=lf
 .gitattributes eol=lf
+* text=lf
+*.json eol=lf
+*.py eol=lf
 *.toml eol=lf
