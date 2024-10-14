@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "day14"
+version = "0.1.0"
+description = ""
+authors = ["Dickson Souza <36424026+disouzam@users.noreply.github.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python=">=3.9,<3.9.7 || >3.9.7,<3.11"
+streamlit = "^1.39.0"
+streamlit-pandas-profiling = "^0.1.3"
+pydantic = "==1.*"
