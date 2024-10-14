@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "plotting-demo-clone"
+version = "0.1.0"
+description = "A clone of plotting demo"
+authors = ["Dickson Souza <36424026+disouzam@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.39.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
