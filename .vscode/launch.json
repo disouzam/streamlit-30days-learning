@@ -26,6 +26,19 @@
                 "8501"
             ],
             "cwd": "${workspaceFolder}/day17"
+        },
+        {
+            "name": "Streamlit - Day26",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "streamlit",
+            "args": [
+                "run",
+                "${workspaceFolder}/day26/day26.py",
+                "--server.port",
+                "8501"
+            ],
+            "cwd": "${workspaceFolder}/day26"
         }
     ]
 }
