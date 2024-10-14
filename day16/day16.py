@@ -1,5 +1,16 @@
 import streamlit as st
 
+st.markdown(
+"""
+<style>
+div[class*="stSlider"] > label > div[data-testid="stMarkdownContainer"] > p {
+    font-size: 30px;
+}
+</style>
+""", 
+unsafe_allow_html=True
+)
+
 st.title('Customizing the theme of Streamlit apps')
 
 st.write('Contents of the `.streamlit/config.toml` file of this app')
